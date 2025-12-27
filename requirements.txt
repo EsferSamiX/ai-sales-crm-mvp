@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+
+langchain==1.2.0
+langgraph==1.0.5
+langchain-groq==1.1.1
+
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.10.0
+seaborn==0.13.2
+
+jinja2
