@@ -70,7 +70,7 @@ def run_pipeline(input_csv_path: str, output_csv_path: str):
         # simulate response
         df.at[idx, "status"] = simulate_response(row["priority"])
 
-        time.sleep(1)  # demo realism
+        time.sleep(1)  
 
     # ---------- Save final CSV ----------
     df.to_csv(output_csv_path, index=False)

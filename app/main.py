@@ -42,7 +42,7 @@ def home():
         </form>
 
         <p>
-            📬 MailHog UI:
+             MailHog UI:
             <a href="http://localhost:8025" target="_blank">
                 http://localhost:8025
             </a>
@@ -84,7 +84,7 @@ async def upload_csv(file: UploadFile = File(...)):
         )
 
 
-# ---------- Health Check ----------
+
 @app.get("/health")
 def health():
     return {"status": "ok"}

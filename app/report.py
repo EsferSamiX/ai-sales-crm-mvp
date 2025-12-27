@@ -7,7 +7,7 @@ def generate_campaign_report(df: pd.DataFrame, output_path: str):
     Generates an AI-written markdown campaign report.
     """
 
-    # ---- Basic stats (Python, deterministic) ----
+    
     total_leads = len(df)
     emails_sent = df["personalized_email"].notna().sum()
 

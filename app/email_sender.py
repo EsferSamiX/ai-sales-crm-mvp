@@ -2,8 +2,8 @@ import smtplib
 from email.message import EmailMessage
 
 
-SMTP_HOST = "mailhog"   # Docker service name
-SMTP_PORT = 1025        # MailHog SMTP port
+SMTP_HOST = "mailhog"   
+SMTP_PORT = 1025        
 FROM_EMAIL = "sales@demo-crm.ai"
 
 
