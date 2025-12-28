@@ -38,32 +38,6 @@ The system ingests leads from a CSV file, enriches them using an LLM, prioritize
 
 ---
 
-## 📂 Project Structure
-   ai-sales-crm-mvp/
-│
-├── app/
-│ ├── main.py # FastAPI entry point
-│ ├── pipeline.py # End-to-end campaign pipeline
-│ ├── persona.py # Persona enrichment agent
-│ ├── priority.py # Lead scoring logic
-│ ├── email_writer.py # Personalized email generator
-│ ├── email_sender.py # SMTP / MailHog sender
-│ ├── response_simulator.py # Fake response generator
-│ └── llm.py # Groq LLM configuration
-│
-├── templates/
-│ └── index.html # CSV upload UI
-│
-├── data/
-│ ├── input/ # Uploaded CSV files (runtime)
-│ └── output/ # Processed CSV files (runtime)
-│
-├── reports/
-│ └── campaign_summary.md # Auto-generated report
-│
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── .gitignore
-└── README.md
+
+
 
