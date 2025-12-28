@@ -8,13 +8,6 @@ __pycache__/
 # Environment variables
 .env
 
-# Input / output data
-data/input/*
-data/output/*
-
-# Generated reports
-reports/*.md
-
 # OS / editor junk
 .DS_Store
 .vscode/
